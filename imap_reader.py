@@ -39,4 +39,5 @@ def fetch_attachments():
                     saved_files.append(filepath)
 
     mail.logout()
+    print(saved_files)
     return saved_files
